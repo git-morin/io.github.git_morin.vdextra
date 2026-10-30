@@ -1,4 +1,4 @@
-package com.gitmorin.vdextra
+package io.github.gitmorin.vdextra
 
 import android.app.PendingIntent
 import android.content.Context
@@ -18,10 +18,10 @@ internal object Updates {
     const val STABLE = "stable"
     const val DEV = "dev"
 
-    const val INSTALL_ACTION = "com.gitmorin.vdextra.INSTALL_RESULT"
+    const val INSTALL_ACTION = "io.github.gitmorin.vdextra.INSTALL_RESULT"
 
     private const val RELEASES_URL =
-        "https://api.github.com/repos/git-morin/com.gitmorin.vdextra/releases?per_page=30"
+        "https://api.github.com/repos/git-morin/io.github.gitmorin.vdextra/releases?per_page=30"
     private const val TIMEOUT_MS = 15000
 
     class Release(val version: String, val apkUrl: String, val apkSize: Long)

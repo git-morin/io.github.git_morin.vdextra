@@ -1,4 +1,4 @@
-package com.gitmorin.vdextra
+package io.github.gitmorin.vdextra
 
 import android.content.res.AssetManager
 import android.os.LocaleList

@@ -17,16 +17,16 @@ registerFeatures(@[
   Feature(fitFeature), Feature(sectionFeature)
 ])
 
-proc Java_com_gitmorin_vdextra_MainModule_nativeInit(env, thiz: pointer)
+proc Java_io_github_gitmorin_vdextra_MainModule_nativeInit(env, thiz: pointer)
     {.exportc, cdecl, dynlib.} =
   startRuntimePoll()
 
-proc Java_com_gitmorin_vdextra_MainModule_nativeCheckMono(env, thiz: pointer): bool
+proc Java_io_github_gitmorin_vdextra_MainModule_nativeCheckMono(env, thiz: pointer): bool
     {.exportc, cdecl, dynlib.} =
   logI("nativeCheckMono called from the Java initInternal hook")
   attachNow()
 
-proc Java_com_gitmorin_vdextra_MainModule_nativeSetMusicVolume(
+proc Java_io_github_gitmorin_vdextra_MainModule_nativeSetMusicVolume(
     env, thiz: pointer, volume: cfloat) {.exportc, cdecl, dynlib.} =
   var v = float32(volume)
   if not (v >= 0'f32): v = 1'f32 # also catches NaN
@@ -34,26 +34,26 @@ proc Java_com_gitmorin_vdextra_MainModule_nativeSetMusicVolume(
   musicFeature.volume.store(v)
   logI("musicVolume=" & formatFloat(v, ffDecimal, 2))
 
-proc Java_com_gitmorin_vdextra_MainModule_nativeSetCustomMusic(
+proc Java_io_github_gitmorin_vdextra_MainModule_nativeSetCustomMusic(
     env, cls: pointer, on: bool) {.exportc, cdecl, dynlib.} =
   musicFeature.custom.store(on)
   logI("customMusic=" & $on)
 
-proc Java_com_gitmorin_vdextra_MainModule_nativeMusicState(
+proc Java_io_github_gitmorin_vdextra_MainModule_nativeMusicState(
     env, cls: pointer): int32 {.exportc, cdecl, dynlib.} =
   int32(musicFeature.state.load())
 
-proc Java_com_gitmorin_vdextra_MainModule_nativeMusicVolume(
+proc Java_io_github_gitmorin_vdextra_MainModule_nativeMusicVolume(
     env, cls: pointer): cfloat {.exportc, cdecl, dynlib.} =
   cfloat(musicFeature.volume.load())
 
-proc Java_com_gitmorin_vdextra_MainModule_nativeSetQuality(
+proc Java_io_github_gitmorin_vdextra_MainModule_nativeSetQuality(
     env, thiz: pointer, enable: bool, mask: int32) {.exportc, cdecl, dynlib.} =
   cueSoundsFeature.enabled.store(enable)
   cueSoundsFeature.mask.store(int(mask) and 0x7F)
   logI("quality enable=" & $enable & " mask=" & $cueSoundsFeature.mask.load())
 
-proc Java_com_gitmorin_vdextra_MainModule_nativeSetBitrate(
+proc Java_io_github_gitmorin_vdextra_MainModule_nativeSetBitrate(
     env, thiz: pointer, extend, unlock: bool, scale: cfloat) {.exportc, cdecl, dynlib.} =
   var s = float32(scale)
   if not (s >= 1'f32): s = 1'f32 # also catches NaN
@@ -64,12 +64,12 @@ proc Java_com_gitmorin_vdextra_MainModule_nativeSetBitrate(
   logI("bitrateFeature extend=" & $extend & " unlock=" & $unlock & " scale=" & formatFloat(s,
       ffDecimal, 2))
 
-proc Java_com_gitmorin_vdextra_MainModule_nativeSetForceLan(env, thiz: pointer, on: bool)
+proc Java_io_github_gitmorin_vdextra_MainModule_nativeSetForceLan(env, thiz: pointer, on: bool)
     {.exportc, cdecl, dynlib.} =
   forceLanFeature.enabled.store(on)
   logI("forceLanFeature=" & $on)
 
-proc Java_com_gitmorin_vdextra_MainModule_nativeSetSettingsFit(
+proc Java_io_github_gitmorin_vdextra_MainModule_nativeSetSettingsFit(
     env, thiz: pointer, enable: bool, pad: cfloat) {.exportc, cdecl, dynlib.} =
   var t = float32(pad)
   if not (t >= 0'f32): t = 16'f32 # also catches NaN

@@ -12,9 +12,8 @@ JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM* vm, void* reserved) {
   return JNI_VERSION_1_6;
 }
 
-JNIEXPORT void JNICALL Java_com_gitmorin_vdextra_MainModule_nativeSetVersion(JNIEnv* env,
-                                                                             jobject thiz,
-                                                                             jstring version) {
+JNIEXPORT void JNICALL Java_io_github_gitmorin_vdextra_MainModule_nativeSetVersion(
+    JNIEnv* env, jobject thiz, jstring version) {
   (void)thiz;
   if (!version) return;
   const char* cv = (*env)->GetStringUTFChars(env, version, NULL);
@@ -24,9 +23,10 @@ JNIEXPORT void JNICALL Java_com_gitmorin_vdextra_MainModule_nativeSetVersion(JNI
   }
 }
 
-JNIEXPORT void JNICALL Java_com_gitmorin_vdextra_MainModule_nativeSetDict(JNIEnv* env, jobject thiz,
-                                                                          jobjectArray keys,
-                                                                          jobjectArray vals) {
+JNIEXPORT void JNICALL Java_io_github_gitmorin_vdextra_MainModule_nativeSetDict(JNIEnv* env,
+                                                                                jobject thiz,
+                                                                                jobjectArray keys,
+                                                                                jobjectArray vals) {
   (void)thiz;
   jint n = (*env)->GetArrayLength(env, keys);
   jint m = (*env)->GetArrayLength(env, vals);

@@ -2,8 +2,8 @@
   <img width="160" height="160" alt="VDExtra app icon" src="docs/icon.png" />
   <h1>VDExtra</h1>
 
-  <a href="../../releases/latest"><img alt="stable release" src="https://img.shields.io/github/v/release/git-morin/com.gitmorin.vdextra?display_name=release&label=stable&color=blue"></a>
-  <a href="../../releases"><img alt="dev release" src="https://img.shields.io/github/v/release/git-morin/com.gitmorin.vdextra?display_name=release&include_prereleases&label=dev&color=orange"></a>
+  <a href="../../releases/latest"><img alt="stable release" src="https://img.shields.io/github/v/release/git-morin/io.github.gitmorin.vdextra?display_name=release&label=stable&color=blue"></a>
+  <a href="../../releases"><img alt="dev release" src="https://img.shields.io/github/v/release/git-morin/io.github.gitmorin.vdextra?display_name=release&include_prereleases&label=dev&color=orange"></a>
 </div>
 
 Xposed module to add extra features to **Virtual Desktop** (VR).

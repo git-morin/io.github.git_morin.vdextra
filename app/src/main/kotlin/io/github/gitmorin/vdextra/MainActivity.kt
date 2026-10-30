@@ -1,4 +1,4 @@
-package com.gitmorin.vdextra
+package io.github.gitmorin.vdextra
 
 import android.Manifest
 import android.content.BroadcastReceiver

@@ -15,20 +15,20 @@
       android:theme="@style/Theme.VDExtra">
     <provider
         android:name="io.github.libxposed.service.XposedProvider"
-        android:authorities="com.gitmorin.vdextra.XposedService"
+        android:authorities="io.github.gitmorin.vdextra.XposedService"
         android:exported="true" />
     <receiver
         android:name=".MusicMissingReceiver"
         android:exported="true">
       <intent-filter>
-        <action android:name="com.gitmorin.vdextra.MUSIC_MISSING" />
+        <action android:name="io.github.gitmorin.vdextra.MUSIC_MISSING" />
       </intent-filter>
     </receiver>
     <receiver
         android:name=".UpdateCheckReceiver"
         android:exported="true">
       <intent-filter>
-        <action android:name="com.gitmorin.vdextra.CHECK_FOR_UPDATE" />
+        <action android:name="io.github.gitmorin.vdextra.CHECK_FOR_UPDATE" />
       </intent-filter>
     </receiver>
     <activity
