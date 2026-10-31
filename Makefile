@@ -3,8 +3,8 @@ SHELL := /usr/bin/env bash
 
 DEVICE ?=
 VD_PKG := VirtualDesktop.Quest
-MODULE := com.gitmorin.vdextra
-REPO := git-morin/com.gitmorin.vdextra
+MODULE := io.github.gitmorin.vdextra
+REPO := git-morin/io.github.gitmorin.vdextra
 NIM_MAIN := app/src/main/nim/vdextra.nim
 NIM_SRC := $(wildcard app/src/main/nim/*.nim app/src/main/nim/hooks/*.nim)
 C_SRC := app/src/main/cpp/init.c
