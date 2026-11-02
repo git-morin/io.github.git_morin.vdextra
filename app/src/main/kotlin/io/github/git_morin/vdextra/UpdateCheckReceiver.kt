@@ -1,4 +1,4 @@
-package io.github.gitmorin.vdextra
+package io.github.git_morin.vdextra
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -97,7 +97,7 @@ class UpdateCheckReceiver : BroadcastReceiver() {
     }
 
     internal companion object {
-        const val ACTION = "io.github.gitmorin.vdextra.CHECK_FOR_UPDATE"
+        const val ACTION = "io.github.git_morin.vdextra.CHECK_FOR_UPDATE"
 
         private const val TAG = "VDExtra"
 

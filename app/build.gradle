@@ -12,11 +12,11 @@ def vdVersionName = project.findProperty('vdVersionName') ?: '0.0.0-local'
 def vdVersionCode = (project.findProperty('vdVersionCode') ?: '1').toString().toInteger()
 
 android {
-    namespace 'io.github.gitmorin.vdextra'
+    namespace 'io.github.git_morin.vdextra'
     compileSdk 34
 
     defaultConfig {
-        applicationId "io.github.gitmorin.vdextra"
+        applicationId "io.github.git_morin.vdextra"
         minSdk 29
         targetSdk 34
         versionCode vdVersionCode

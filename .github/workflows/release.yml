@@ -301,7 +301,7 @@ jobs:
     if: >-
       github.event_name == 'push'
       && needs.version.outputs.publish == 'true'
-      && github.repository == 'git-morin/io.github.gitmorin.vdextra'
+      && github.repository == 'git-morin/io.github.git_morin.vdextra'
       && github.actor == 'git-morin'
     runs-on: ubuntu-latest
     permissions:

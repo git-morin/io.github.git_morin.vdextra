@@ -1,4 +1,4 @@
-package io.github.gitmorin.vdextra
+package io.github.git_morin.vdextra
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -60,7 +60,7 @@ class MusicMissingReceiver : BroadcastReceiver() {
     }
 
     internal companion object {
-        const val ACTION = "io.github.gitmorin.vdextra.MUSIC_MISSING"
+        const val ACTION = "io.github.git_morin.vdextra.MUSIC_MISSING"
 
         private const val TAG = "VDExtra"
         private const val CHANNEL_ID = "music"

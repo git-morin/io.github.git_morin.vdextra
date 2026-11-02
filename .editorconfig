@@ -23,3 +23,8 @@ ktlint_standard_argument-list-wrapping = disabled
 ktlint_standard_statement-wrapping = disabled
 ktlint_standard_function-signature = disabled
 ktlint_standard_multiline-if-else = disabled
+
+# The application id has to be io.github.git_morin.vdextra: the LSPosed module repo namespaces a
+# module without its own domain under io.github.{username}, and a GitHub username's hyphen is
+# illegal in a package segment, so it is normalised to an underscore.
+ktlint_standard_package-name = disabled

@@ -1,4 +1,4 @@
-package io.github.gitmorin.vdextra
+package io.github.git_morin.vdextra
 
 internal object PrefKeys {
     const val NAME = "vdextra"

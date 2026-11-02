@@ -1,4 +1,4 @@
-package io.github.gitmorin.vdextra
+package io.github.git_morin.vdextra
 
 internal object VdTarget {
     val PACKAGES = arrayOf("VirtualDesktop.Quest", "VirtualDesktop.Android")
