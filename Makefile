@@ -2,7 +2,7 @@ SHELL := /usr/bin/env bash
 .DEFAULT_GOAL := help
 
 DEVICE ?=
-VD_PKG := VirtualDesktop.Quest
+VD_PKGS := VirtualDesktop.Android VirtualDesktop.Quest
 MODULE := io.github.git_morin.vdextra
 REPO := git-morin/io.github.git_morin.vdextra
 NIM_MAIN := app/src/main/nim/vdextra.nim
@@ -11,6 +11,9 @@ C_SRC := app/src/main/cpp/init.c
 APK_DIR := dist/apk
 BRANCH = $(shell git rev-parse --abbrev-ref HEAD)
 ADB := adb -s $(DEVICE)
+
+# Virtual Desktop renamed its package in 1.34.25, so ask the headset which is installed.
+vd_pkg = $$(for p in $(VD_PKGS); do $(ADB) shell pm path $$p >/dev/null 2>&1 && { echo $$p; break; }; done)
 CLANG_FORMAT_VERSION := 23.1.3
 KTLINT_VERSION := 1.8.0
 DETEKT_VERSION := 1.23.8
@@ -152,9 +155,12 @@ install: require-device ## Install the downloaded APK on the headset
 	$(ADB) install -r "$$apk"
 
 run: require-device ## Restart Virtual Desktop
-	@$(ADB) shell am force-stop $(VD_PKG)
-	@$(ADB) shell monkey -p $(VD_PKG) -c android.intent.category.LAUNCHER 1 >/dev/null
-	@echo "launched $(VD_PKG)"
+	@set -euo pipefail; \
+	pkg=$(vd_pkg); \
+	test -n "$$pkg" || { echo "Virtual Desktop is not installed"; exit 1; }; \
+	$(ADB) shell am force-stop "$$pkg"; \
+	$(ADB) shell monkey -p "$$pkg" -c android.intent.category.LAUNCHER 1 >/dev/null; \
+	echo "launched $$pkg"
 
 ship: build apk install run ## Build in CI, install on the headset and restart Virtual Desktop
 
@@ -167,9 +173,12 @@ connect: require-device ## Reconnect wireless adb to the headset
 	done; \
 	echo "could not reach $(DEVICE) - is the headset awake?"; exit 1
 
-device: require-device # Show the device, Virtual Desktop's pid and the installed module version
+device: require-device # Show the device, Virtual Desktop's version, pid and the module version
 	@$(ADB) shell getprop ro.product.model
-	@echo "Virtual Desktop pid: $$($(ADB) shell pidof $(VD_PKG) | tr -dc '0-9')"
+	@pkg=$(vd_pkg); \
+	if [ -z "$$pkg" ]; then echo "Virtual Desktop is not installed"; exit 0; fi; \
+	echo "$$pkg $$($(ADB) shell dumpsys package "$$pkg" | sed -n 's/.*versionName=//p' | head -1)"; \
+	echo "Virtual Desktop pid: $$($(ADB) shell pidof "$$pkg" | tr -dc '0-9')"
 	@$(ADB) shell dumpsys package $(MODULE) 2>/dev/null | grep -m1 versionName || true
 
 logs: require-device ## Follow the VDExtra log
