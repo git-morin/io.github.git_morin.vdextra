@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">VDExtra</string>
+    <string name="app_description">Utvidelsesmodul for Virtual Desktop</string>
+
+    <string name="nav_home">Hjem</string>
+    <string name="nav_options">Alternativer</string>
+
+    <string name="status_active">Aktiv</string>
+    <string name="status_inactive">Inaktiv</string>
+    <string name="status_inactive_hint">Aktiver modulen i LSPosed, og tving så Virtual Desktop til å stoppe og start den på nytt</string>
+
+    <string name="info_module_version">Modulversjon</string>
+    <string name="info_vd_version">Virtual Desktop-versjon</string>
+    <string name="version_not_installed">Ikke installert</string>
+
+    <string name="dialog_sounds_title">Velg lyder som skal dempes</string>
+    <string name="dialog_scale_title">Bitrate-multiplikator</string>
+    <string name="action_done">Ferdig</string>
+    <string name="scale_hint">Bitrate-multiplikator (1 - 3)</string>
+
+    <string name="section_language">Språk</string>
+    <string name="dict_language_title">Grensesnittspråk</string>
+    <string name="settings_fit_title">Tilpass lange sider</string>
+    <string name="settings_fit_support">Reduserer linjeavstanden så en oversatt side ikke skjuler de siste radene</string>
+    <string name="dialog_language_title">Velg grensesnittspråk</string>
+    <string name="lang_off">Engelsk (ingen oversettelse)</string>
+    <string name="lang_entry_format">%1$s · %2$d oppføringer</string>
+    <string name="toast_language_format">Språk: %1$s. Start Virtual Desktop på nytt for å bruke det.</string>
+
+    <string name="section_updates">Oppdateringer</string>
+    <string name="update_channel_title">Oppdateringskanal</string>
+    <string name="update_channel_stable">Stabil</string>
+    <string name="update_channel_dev">Dev (forhåndsversjoner)</string>
+    <string name="dialog_channel_title">Velg oppdateringskanal</string>
+    <string name="update_check_title">Se etter oppdateringer</string>
+    <string name="update_current_format">Installert %1$s</string>
+    <string name="update_checking">Ser etter…</string>
+    <string name="update_up_to_date">Oppdatert</string>
+    <string name="update_available_format">%1$s er tilgjengelig - trykk for å installere</string>
+    <string name="update_failed_format">Sjekk mislyktes: %1$s</string>
+    <string name="update_downloading">Laster ned…</string>
+    <string name="update_installing">Gir videre til installasjonsprogrammet…</string>
+    <string name="update_needs_permission">La VDExtra installere apper, og prøv igjen</string>
+    <string name="update_restart_hint">Oppdatert. Tving Virtual Desktop til å stoppe og start den på nytt for å laste inn.</string>
+
+    <string name="notif_channel_updates">Oppdatering tilgjengelig</string>
+    <string name="notif_update_title">VDExtra-oppdatering tilgjengelig</string>
+    <string name="notif_update_text_format">%1$s er klar til installering</string>
+
+    <string name="section_sound">Lyd</string>
+    <string name="music_volume_title">Volum for bakgrunnsmusikk</string>
+    <string name="music_volume_support">Senker menymusikken; på fullt beholdes Virtual Desktops nivå</string>
+    <string name="music_volume_format">%1$d %%</string>
+    <string name="music_source_title">Bakgrunnsmusikk</string>
+    <string name="music_source_vd">Virtual Desktops musikk</string>
+    <string name="music_source_custom">Egen fil</string>
+    <string name="music_source_pick">Velg en fil...</string>
+    <string name="music_source_plaza">Nightwave Plaza (nettradio)</string>
+    <string name="dialog_music_source_title">Velg bakgrunnsmusikk</string>
+    <string name="toast_music_format">Bakgrunnsmusikk: %1$s. Start Virtual Desktop på nytt for å bruke den.</string>
+    <string name="toast_music_no_picker">Ingen filvelger på denne enheten</string>
+    <string name="toast_music_no_path">Fant ikke filbanen. Velg en fil fra intern lagring.</string>
+    <string name="notif_channel_music">Bakgrunnsmusikk</string>
+    <string name="notif_music_missing_title">Bakgrunnsmusikk utilgjengelig</string>
+    <string name="notif_music_missing_text">Filen kunne ikke leses. Virtual Desktops musikk ble brukt i stedet.</string>
+    <string name="notif_music_missing_text_format">%1$s kunne ikke leses. Virtual Desktops musikk ble brukt i stedet.</string>
+    <string name="sound_no_perf_title">Slå av ytelseslyder</string>
+    <string name="sound_no_perf_support">Trykk lenge for å velge hver lyd for seg</string>
+
+    <string name="section_bitrate">Bitrate</string>
+    <string name="bitrate_extend_title">Utvid bitrate-området</string>
+    <string name="bitrate_extend_support">Trykk lenge for å stille inn multiplikatoren (1-3)</string>
+    <string name="bitrate_unlock_title">Fjern hastighetstestens tak</string>
+    <string name="bitrate_unlock_support">Hopper over båndbreddetaket etter hastighetstesten</string>
+
+    <string name="section_network">Nettverk</string>
+    <string name="network_force_lan_title">Tving LAN-søk</string>
+    <string name="network_force_lan_support">Vis lokale PC-er selv når serveren ikke kan nås</string>
+
+    <string name="section_about">Om</string>
+    <string name="about_title">Versjon og takk</string>
+    <string name="about_version_format">Versjon %1$s</string>
+    <string name="about_blurb">Legger til funksjoner i Virtual Desktop på Quest.</string>
+    <string name="about_source">Kildekode</string>
+    <string name="about_author">Vedlikeholder</string>
+    <string name="about_credit_title">Basert på</string>
+    <string name="about_credit">Inspirert av VDPlus. VDExtra er en uavhengig videreføring av det arbeidet.</string>
+    <string name="about_music_title">Bakgrunnsmusikk</string>
+    <string name="about_music">Standard musikkilde er Nightwave Plaza. Musikken som sendes tilhører de respektive rettighetshaverne.</string>
+    <string name="about_license_title">Lisens</string>
+    <string name="about_license">MIT. Ikke tilknyttet eller godkjent av Virtual Desktop, Inc.</string>
+</resources>

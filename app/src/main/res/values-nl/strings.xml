@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">VDExtra</string>
+    <string name="app_description">Uitbreidingsmodule voor Virtual Desktop</string>
+
+    <string name="nav_home">Start</string>
+    <string name="nav_options">Opties</string>
+
+    <string name="status_active">Actief</string>
+    <string name="status_inactive">Inactief</string>
+    <string name="status_inactive_hint">Schakel de module in LSPosed in en forceer dan stoppen en herstart Virtual Desktop</string>
+
+    <string name="info_module_version">Moduleversie</string>
+    <string name="info_vd_version">Virtual Desktop-versie</string>
+    <string name="version_not_installed">Niet geïnstalleerd</string>
+
+    <string name="dialog_sounds_title">Kies geluiden om te dempen</string>
+    <string name="dialog_scale_title">Bitrate-vermenigvuldiger</string>
+    <string name="action_done">Klaar</string>
+    <string name="scale_hint">Bitrate-vermenigvuldiger (1 - 3)</string>
+
+    <string name="section_language">Taal</string>
+    <string name="dict_language_title">Interfacetaal</string>
+    <string name="settings_fit_title">Lange pagina\'s passend maken</string>
+    <string name="settings_fit_support">Verkleint de regelafstand zodat een vertaalde pagina de laatste regels niet verbergt</string>
+    <string name="dialog_language_title">Kies interfacetaal</string>
+    <string name="lang_off">Engels (geen vertaling)</string>
+    <string name="lang_entry_format">%1$s · %2$d items</string>
+    <string name="toast_language_format">Taal ingesteld op %1$s. Herstart Virtual Desktop om toe te passen.</string>
+
+    <string name="section_updates">Updates</string>
+    <string name="update_channel_title">Updatekanaal</string>
+    <string name="update_channel_stable">Stabiel</string>
+    <string name="update_channel_dev">Dev (pre-releases)</string>
+    <string name="dialog_channel_title">Kies updatekanaal</string>
+    <string name="update_check_title">Zoeken naar updates</string>
+    <string name="update_current_format">Geïnstalleerd %1$s</string>
+    <string name="update_checking">Zoeken…</string>
+    <string name="update_up_to_date">Up-to-date</string>
+    <string name="update_available_format">%1$s beschikbaar - tik om te installeren</string>
+    <string name="update_failed_format">Controle mislukt: %1$s</string>
+    <string name="update_downloading">Downloaden…</string>
+    <string name="update_installing">Doorgeven aan installatieprogramma…</string>
+    <string name="update_needs_permission">Sta VDExtra toe apps te installeren en probeer opnieuw</string>
+    <string name="update_restart_hint">Bijgewerkt. Forceer stoppen en herstart Virtual Desktop om het te laden.</string>
+
+    <string name="notif_channel_updates">Update beschikbaar</string>
+    <string name="notif_update_title">VDExtra-update beschikbaar</string>
+    <string name="notif_update_text_format">%1$s is klaar om te installeren</string>
+
+    <string name="section_sound">Geluid</string>
+    <string name="music_volume_title">Volume achtergrondmuziek</string>
+    <string name="music_volume_support">Zet de menumuziek zachter; op vol blijft het Virtual Desktop-niveau</string>
+    <string name="music_volume_format">%1$d%%</string>
+    <string name="music_source_title">Achtergrondmuziek</string>
+    <string name="music_source_vd">Virtual Desktop-muziek</string>
+    <string name="music_source_custom">Eigen bestand</string>
+    <string name="music_source_pick">Kies een bestand...</string>
+    <string name="music_source_plaza">Nightwave Plaza (online radio)</string>
+    <string name="dialog_music_source_title">Kies de achtergrondmuziek</string>
+    <string name="toast_music_format">Achtergrondmuziek: %1$s. Herstart Virtual Desktop om toe te passen.</string>
+    <string name="toast_music_no_picker">Geen bestandskiezer op dit apparaat</string>
+    <string name="toast_music_no_path">Kan het pad niet bepalen. Kies een bestand uit de interne opslag.</string>
+    <string name="notif_channel_music">Achtergrondmuziek</string>
+    <string name="notif_music_missing_title">Achtergrondmuziek niet beschikbaar</string>
+    <string name="notif_music_missing_text">Het bestand kon niet worden gelezen. Virtual Desktop-muziek werd gebruikt.</string>
+    <string name="notif_music_missing_text_format">%1$s kon niet worden gelezen. Virtual Desktop-muziek werd gebruikt.</string>
+    <string name="sound_no_perf_title">Prestatiegeluiden uitschakelen</string>
+    <string name="sound_no_perf_support">Lang drukken om elk geluid apart te kiezen</string>
+
+    <string name="section_bitrate">Bitrate</string>
+    <string name="bitrate_extend_title">Bitratebereik uitbreiden</string>
+    <string name="bitrate_extend_support">Lang drukken om de vermenigvuldiger in te stellen (1-3)</string>
+    <string name="bitrate_unlock_title">Snelheidstestlimiet verwijderen</string>
+    <string name="bitrate_unlock_support">Negeert de bandbreedtelimiet na de snelheidstest</string>
+
+    <string name="section_network">Netwerk</string>
+    <string name="network_force_lan_title">LAN-detectie forceren</string>
+    <string name="network_force_lan_support">Toon lokale pc\'s ook als de server onbereikbaar is</string>
+
+    <string name="section_about">Over</string>
+    <string name="about_title">Versie en credits</string>
+    <string name="about_version_format">Versie %1$s</string>
+    <string name="about_blurb">Voegt functies toe aan Virtual Desktop op Quest.</string>
+    <string name="about_source">Broncode</string>
+    <string name="about_author">Beheerder</string>
+    <string name="about_credit_title">Gebaseerd op</string>
+    <string name="about_credit">Geïnspireerd door VDPlus. VDExtra is een onafhankelijke voortzetting van dat werk.</string>
+    <string name="about_music_title">Achtergrondmuziek</string>
+    <string name="about_music">De standaardmuziekbron is Nightwave Plaza. De uitgezonden muziek behoort toe aan de respectieve rechthebbenden.</string>
+    <string name="about_license_title">Licentie</string>
+    <string name="about_license">MIT. Niet verbonden met of goedgekeurd door Virtual Desktop, Inc.</string>
+</resources>

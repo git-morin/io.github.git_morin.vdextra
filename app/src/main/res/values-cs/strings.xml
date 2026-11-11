@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">VDExtra</string>
+    <string name="app_description">Rozšiřující modul pro Virtual Desktop</string>
+
+    <string name="nav_home">Domů</string>
+    <string name="nav_options">Možnosti</string>
+
+    <string name="status_active">Aktivní</string>
+    <string name="status_inactive">Neaktivní</string>
+    <string name="status_inactive_hint">Zapněte modul v LSPosed, pak vynuťte zastavení a znovu spusťte Virtual Desktop</string>
+
+    <string name="info_module_version">Verze modulu</string>
+    <string name="info_vd_version">Verze Virtual Desktop</string>
+    <string name="version_not_installed">Nenainstalováno</string>
+
+    <string name="dialog_sounds_title">Vyberte signály ke ztlumení</string>
+    <string name="dialog_scale_title">Násobič datového toku</string>
+    <string name="action_done">Hotovo</string>
+    <string name="scale_hint">Násobič datového toku (1 - 3)</string>
+
+    <string name="section_language">Jazyk</string>
+    <string name="dict_language_title">Jazyk rozhraní</string>
+    <string name="settings_fit_title">Přizpůsobit dlouhé stránky</string>
+    <string name="settings_fit_support">Zmenší řádkování, aby přeložená stránka neskrývala poslední řádky</string>
+    <string name="dialog_language_title">Vyberte jazyk rozhraní</string>
+    <string name="lang_off">Angličtina (bez překladu)</string>
+    <string name="lang_entry_format">%1$s · %2$d položek</string>
+    <string name="toast_language_format">Jazyk: %1$s. Pro použití restartujte Virtual Desktop.</string>
+
+    <string name="section_updates">Aktualizace</string>
+    <string name="update_channel_title">Kanál aktualizací</string>
+    <string name="update_channel_stable">Stabilní</string>
+    <string name="update_channel_dev">Dev (předběžné verze)</string>
+    <string name="dialog_channel_title">Vyberte kanál aktualizací</string>
+    <string name="update_check_title">Zkontrolovat aktualizace</string>
+    <string name="update_current_format">Nainstalováno %1$s</string>
+    <string name="update_checking">Kontrola…</string>
+    <string name="update_up_to_date">Aktuální</string>
+    <string name="update_available_format">K dispozici %1$s - klepnutím nainstalujete</string>
+    <string name="update_failed_format">Kontrola selhala: %1$s</string>
+    <string name="update_downloading">Stahování…</string>
+    <string name="update_installing">Předávání instalátoru…</string>
+    <string name="update_needs_permission">Povolte VDExtra instalovat aplikace a zkuste to znovu</string>
+    <string name="update_restart_hint">Aktualizováno. Vynuťte zastavení a znovu spusťte Virtual Desktop.</string>
+
+    <string name="notif_channel_updates">Dostupná aktualizace</string>
+    <string name="notif_update_title">Dostupná aktualizace VDExtra</string>
+    <string name="notif_update_text_format">%1$s je připravena k instalaci</string>
+
+    <string name="section_sound">Zvuk</string>
+    <string name="music_volume_title">Hlasitost hudby na pozadí</string>
+    <string name="music_volume_support">Ztlumí hudbu v menu; na maximu zůstane úroveň Virtual Desktop</string>
+    <string name="music_volume_format">%1$d %%</string>
+    <string name="music_source_title">Hudba na pozadí</string>
+    <string name="music_source_vd">Hudba Virtual Desktop</string>
+    <string name="music_source_custom">Vlastní soubor</string>
+    <string name="music_source_pick">Vybrat soubor...</string>
+    <string name="music_source_plaza">Nightwave Plaza (online rádio)</string>
+    <string name="dialog_music_source_title">Vyberte hudbu na pozadí</string>
+    <string name="toast_music_format">Hudba: %1$s. Pro použití restartujte Virtual Desktop.</string>
+    <string name="toast_music_no_picker">V zařízení není výběr souborů</string>
+    <string name="toast_music_no_path">Nelze zjistit cestu k souboru. Vyberte soubor z interního úložiště.</string>
+    <string name="notif_channel_music">Hudba na pozadí</string>
+    <string name="notif_music_missing_title">Hudba na pozadí nedostupná</string>
+    <string name="notif_music_missing_text">Soubor nešel přečíst. Použita hudba Virtual Desktop.</string>
+    <string name="notif_music_missing_text_format">%1$s nešel přečíst. Použita hudba Virtual Desktop.</string>
+    <string name="sound_no_perf_title">Vypnout zvuky výkonu</string>
+    <string name="sound_no_perf_support">Podržením vyberete každý signál zvlášť</string>
+
+    <string name="section_bitrate">Datový tok</string>
+    <string name="bitrate_extend_title">Rozšířit datový tok</string>
+    <string name="bitrate_extend_support">Podržením nastavíte násobič (1-3)</string>
+    <string name="bitrate_unlock_title">Zrušit limit testu rychlosti</string>
+    <string name="bitrate_unlock_support">Ignoruje limit pásma po testu rychlosti</string>
+
+    <string name="section_network">Síť</string>
+    <string name="network_force_lan_title">Vynutit hledání v LAN</string>
+    <string name="network_force_lan_support">Zobrazit místní PC, i když je server nedostupný</string>
+
+    <string name="section_about">O modulu</string>
+    <string name="about_title">Verze a autoři</string>
+    <string name="about_version_format">Verze %1$s</string>
+    <string name="about_blurb">Přidává funkce do Virtual Desktop na Questu.</string>
+    <string name="about_source">Zdrojový kód</string>
+    <string name="about_author">Správce</string>
+    <string name="about_credit_title">Založeno na</string>
+    <string name="about_credit">Inspirováno VDPlus. VDExtra je nezávislým pokračováním této práce.</string>
+    <string name="about_music_title">Hudba na pozadí</string>
+    <string name="about_music">Výchozím zdrojem hudby je Nightwave Plaza. Vysílaná hudba patří příslušným držitelům práv.</string>
+    <string name="about_license_title">Licence</string>
+    <string name="about_license">MIT. Bez vazby na Virtual Desktop, Inc. a bez jejího schválení.</string>
+</resources>

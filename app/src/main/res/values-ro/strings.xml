@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">VDExtra</string>
+    <string name="app_description">Modul de îmbunătățiri pentru Virtual Desktop</string>
+
+    <string name="nav_home">Acasă</string>
+    <string name="nav_options">Opțiuni</string>
+
+    <string name="status_active">Activ</string>
+    <string name="status_inactive">Inactiv</string>
+    <string name="status_inactive_hint">Activează modulul în LSPosed, apoi oprește forțat și repornește Virtual Desktop</string>
+
+    <string name="info_module_version">Versiunea modulului</string>
+    <string name="info_vd_version">Versiunea Virtual Desktop</string>
+    <string name="version_not_installed">Neinstalat</string>
+
+    <string name="dialog_sounds_title">Alege sunetele de oprit</string>
+    <string name="dialog_scale_title">Multiplicator bitrate</string>
+    <string name="action_done">Gata</string>
+    <string name="scale_hint">Multiplicator bitrate (1 - 3)</string>
+
+    <string name="section_language">Limbă</string>
+    <string name="dict_language_title">Limba interfeței</string>
+    <string name="settings_fit_title">Potrivește paginile lungi</string>
+    <string name="settings_fit_support">Reduce spațierea ca o pagină tradusă să nu-și ascundă ultimele rânduri</string>
+    <string name="dialog_language_title">Alege limba interfeței</string>
+    <string name="lang_off">Engleză (fără traducere)</string>
+    <string name="lang_entry_format">%1$s · %2$d intrări</string>
+    <string name="toast_language_format">Limbă: %1$s. Repornește Virtual Desktop pentru a aplica.</string>
+
+    <string name="section_updates">Actualizări</string>
+    <string name="update_channel_title">Canal de actualizare</string>
+    <string name="update_channel_stable">Stabil</string>
+    <string name="update_channel_dev">Dev (versiuni preliminare)</string>
+    <string name="dialog_channel_title">Alege canalul de actualizare</string>
+    <string name="update_check_title">Caută actualizări</string>
+    <string name="update_current_format">Instalată %1$s</string>
+    <string name="update_checking">Se caută…</string>
+    <string name="update_up_to_date">La zi</string>
+    <string name="update_available_format">%1$s disponibilă - atinge pentru a instala</string>
+    <string name="update_failed_format">Căutare eșuată: %1$s</string>
+    <string name="update_downloading">Se descarcă…</string>
+    <string name="update_installing">Se predă instalatorului…</string>
+    <string name="update_needs_permission">Permite VDExtra să instaleze aplicații, apoi încearcă din nou</string>
+    <string name="update_restart_hint">Actualizat. Oprește forțat și repornește Virtual Desktop pentru a-l încărca.</string>
+
+    <string name="notif_channel_updates">Actualizare disponibilă</string>
+    <string name="notif_update_title">Actualizare VDExtra disponibilă</string>
+    <string name="notif_update_text_format">%1$s e gata de instalare</string>
+
+    <string name="section_sound">Sunet</string>
+    <string name="music_volume_title">Volumul muzicii de fundal</string>
+    <string name="music_volume_support">Reduce muzica din meniu; la maxim păstrează nivelul Virtual Desktop</string>
+    <string name="music_volume_format">%1$d%%</string>
+    <string name="music_source_title">Muzică de fundal</string>
+    <string name="music_source_vd">Muzica Virtual Desktop</string>
+    <string name="music_source_custom">Fișier propriu</string>
+    <string name="music_source_pick">Alege un fișier...</string>
+    <string name="music_source_plaza">Nightwave Plaza (radio online)</string>
+    <string name="dialog_music_source_title">Alege muzica de fundal</string>
+    <string name="toast_music_format">Muzică: %1$s. Repornește Virtual Desktop pentru a aplica.</string>
+    <string name="toast_music_no_picker">Niciun selector de fișiere pe acest dispozitiv</string>
+    <string name="toast_music_no_path">Calea fișierului nu a putut fi determinată. Alege un fișier din memoria internă.</string>
+    <string name="notif_channel_music">Muzică de fundal</string>
+    <string name="notif_music_missing_title">Muzica de fundal indisponibilă</string>
+    <string name="notif_music_missing_text">Fișierul nu a putut fi citit. S-a folosit muzica Virtual Desktop.</string>
+    <string name="notif_music_missing_text_format">%1$s nu a putut fi citit. S-a folosit muzica Virtual Desktop.</string>
+    <string name="sound_no_perf_title">Oprește sunetele de performanță</string>
+    <string name="sound_no_perf_support">Apasă lung pentru a alege fiecare sunet</string>
+
+    <string name="section_bitrate">Bitrate</string>
+    <string name="bitrate_extend_title">Extinde intervalul de bitrate</string>
+    <string name="bitrate_extend_support">Apasă lung pentru a seta multiplicatorul (1-3)</string>
+    <string name="bitrate_unlock_title">Elimină limita testului de viteză</string>
+    <string name="bitrate_unlock_support">Ignoră limita de bandă după testul de viteză</string>
+
+    <string name="section_network">Rețea</string>
+    <string name="network_force_lan_title">Forțează descoperirea LAN</string>
+    <string name="network_force_lan_support">Afișează PC-urile locale chiar dacă serverul e inaccesibil</string>
+
+    <string name="section_about">Despre</string>
+    <string name="about_title">Versiune și mulțumiri</string>
+    <string name="about_version_format">Versiunea %1$s</string>
+    <string name="about_blurb">Adaugă funcții în Virtual Desktop pe Quest.</string>
+    <string name="about_source">Cod sursă</string>
+    <string name="about_author">Întreținător</string>
+    <string name="about_credit_title">Bazat pe</string>
+    <string name="about_credit">Inspirat de VDPlus. VDExtra este o continuare independentă a acelei lucrări.</string>
+    <string name="about_music_title">Muzică de fundal</string>
+    <string name="about_music">Sursa implicită de muzică este Nightwave Plaza. Muzica difuzată aparține deținătorilor drepturilor.</string>
+    <string name="about_license_title">Licență</string>
+    <string name="about_license">MIT. Neafiliat cu și neaprobat de Virtual Desktop, Inc.</string>
+</resources>

@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">VDExtra</string>
+    <string name="app_description">Модуль розширень для Virtual Desktop</string>
+
+    <string name="nav_home">Головна</string>
+    <string name="nav_options">Налаштування</string>
+
+    <string name="status_active">Активний</string>
+    <string name="status_inactive">Неактивний</string>
+    <string name="status_inactive_hint">Увімкніть модуль у LSPosed, потім примусово зупиніть і перезапустіть Virtual Desktop</string>
+
+    <string name="info_module_version">Версія модуля</string>
+    <string name="info_vd_version">Версія Virtual Desktop</string>
+    <string name="version_not_installed">Не встановлено</string>
+
+    <string name="dialog_sounds_title">Які сигнали заглушити</string>
+    <string name="dialog_scale_title">Множник бітрейту</string>
+    <string name="action_done">Готово</string>
+    <string name="scale_hint">Множник бітрейту (1 - 3)</string>
+
+    <string name="section_language">Мова</string>
+    <string name="dict_language_title">Мова інтерфейсу</string>
+    <string name="settings_fit_title">Вміщати довгі сторінки</string>
+    <string name="settings_fit_support">Зменшує відступи, щоб перекладена сторінка не ховала останні рядки</string>
+    <string name="dialog_language_title">Виберіть мову інтерфейсу</string>
+    <string name="lang_off">Англійська (без перекладу)</string>
+    <string name="lang_entry_format">%1$s · %2$d записів</string>
+    <string name="toast_language_format">Мова: %1$s. Перезапустіть Virtual Desktop, щоб застосувати.</string>
+
+    <string name="section_updates">Оновлення</string>
+    <string name="update_channel_title">Канал оновлень</string>
+    <string name="update_channel_stable">Стабільний</string>
+    <string name="update_channel_dev">Dev (передрелізи)</string>
+    <string name="dialog_channel_title">Виберіть канал</string>
+    <string name="update_check_title">Перевірити оновлення</string>
+    <string name="update_current_format">Встановлено %1$s</string>
+    <string name="update_checking">Перевірка…</string>
+    <string name="update_up_to_date">Актуальна версія</string>
+    <string name="update_available_format">Доступна %1$s - торкніться, щоб встановити</string>
+    <string name="update_failed_format">Помилка: %1$s</string>
+    <string name="update_downloading">Завантаження…</string>
+    <string name="update_installing">Передача інсталятору…</string>
+    <string name="update_needs_permission">Дозвольте VDExtra встановлювати застосунки й повторіть</string>
+    <string name="update_restart_hint">Оновлено. Зупиніть і перезапустіть Virtual Desktop, щоб завантажити.</string>
+
+    <string name="notif_channel_updates">Доступне оновлення</string>
+    <string name="notif_update_title">Доступне оновлення VDExtra</string>
+    <string name="notif_update_text_format">%1$s готова до встановлення</string>
+
+    <string name="section_sound">Звук</string>
+    <string name="music_volume_title">Гучність музики</string>
+    <string name="music_volume_support">Приглушує музику меню; на максимумі рівень Virtual Desktop</string>
+    <string name="music_volume_format">%1$d%%</string>
+    <string name="music_source_title">Фонова музика</string>
+    <string name="music_source_vd">Музика Virtual Desktop</string>
+    <string name="music_source_custom">Свій файл</string>
+    <string name="music_source_pick">Вибрати файл...</string>
+    <string name="music_source_plaza">Nightwave Plaza (онлайн-радіо)</string>
+    <string name="dialog_music_source_title">Виберіть фонову музику</string>
+    <string name="toast_music_format">Музика: %1$s. Перезапустіть Virtual Desktop, щоб застосувати.</string>
+    <string name="toast_music_no_picker">На пристрої немає вибору файлів</string>
+    <string name="toast_music_no_path">Не вдалося визначити шлях. Виберіть файл у внутрішній пам\'яті.</string>
+    <string name="notif_channel_music">Фонова музика</string>
+    <string name="notif_music_missing_title">Фонова музика недоступна</string>
+    <string name="notif_music_missing_text">Файл не прочитано. Використано музику Virtual Desktop.</string>
+    <string name="notif_music_missing_text_format">%1$s не прочитано. Використано музику Virtual Desktop.</string>
+    <string name="sound_no_perf_title">Без звуків продуктивності</string>
+    <string name="sound_no_perf_support">Утримуйте, щоб вибрати сигнали окремо</string>
+
+    <string name="section_bitrate">Бітрейт</string>
+    <string name="bitrate_extend_title">Розширити бітрейт</string>
+    <string name="bitrate_extend_support">Утримуйте, щоб задати множник (1-3)</string>
+    <string name="bitrate_unlock_title">Зняти ліміт після тесту швидкості</string>
+    <string name="bitrate_unlock_support">Ігнорує ліміт смуги після тесту швидкості</string>
+
+    <string name="section_network">Мережа</string>
+    <string name="network_force_lan_title">Примусовий пошук LAN</string>
+    <string name="network_force_lan_support">Показувати локальні ПК, навіть якщо сервер недоступний</string>
+
+    <string name="section_about">Про модуль</string>
+    <string name="about_title">Версія та автори</string>
+    <string name="about_version_format">Версія %1$s</string>
+    <string name="about_blurb">Додає функції до Virtual Desktop на Quest.</string>
+    <string name="about_source">Вихідний код</string>
+    <string name="about_author">Супровідник</string>
+    <string name="about_credit_title">На основі</string>
+    <string name="about_credit">Натхненно VDPlus. VDExtra - незалежне продовження цієї роботи.</string>
+    <string name="about_music_title">Фонова музика</string>
+    <string name="about_music">Типове джерело музики - Nightwave Plaza. Права на музику належать їхнім власникам.</string>
+    <string name="about_license_title">Ліцензія</string>
+    <string name="about_license">MIT. Не пов\'язано з Virtual Desktop, Inc. і не схвалено нею.</string>
+</resources>

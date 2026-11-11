@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">VDExtra</string>
+    <string name="app_description">Bővítőmodul a Virtual Desktophoz</string>
+
+    <string name="nav_home">Kezdőlap</string>
+    <string name="nav_options">Beállítások</string>
+
+    <string name="status_active">Aktív</string>
+    <string name="status_inactive">Inaktív</string>
+    <string name="status_inactive_hint">Kapcsold be a modult az LSPosedban, majd kényszerítsd leállásra és indítsd újra a Virtual Desktopot</string>
+
+    <string name="info_module_version">Modulverzió</string>
+    <string name="info_vd_version">Virtual Desktop verzió</string>
+    <string name="version_not_installed">Nincs telepítve</string>
+
+    <string name="dialog_sounds_title">Némítandó jelzők</string>
+    <string name="dialog_scale_title">Bitráta szorzó</string>
+    <string name="action_done">Kész</string>
+    <string name="scale_hint">Bitráta szorzó (1 - 3)</string>
+
+    <string name="section_language">Nyelv</string>
+    <string name="dict_language_title">Felület nyelve</string>
+    <string name="settings_fit_title">Hosszú oldalak illesztése</string>
+    <string name="settings_fit_support">Csökkenti a sorközt, hogy a lefordított oldal ne rejtse el az utolsó sorokat</string>
+    <string name="dialog_language_title">Felület nyelvének kiválasztása</string>
+    <string name="lang_off">Angol (nincs fordítás)</string>
+    <string name="lang_entry_format">%1$s · %2$d bejegyzés</string>
+    <string name="toast_language_format">Nyelv: %1$s. Indítsd újra a Virtual Desktopot az alkalmazáshoz.</string>
+
+    <string name="section_updates">Frissítések</string>
+    <string name="update_channel_title">Frissítési csatorna</string>
+    <string name="update_channel_stable">Stabil</string>
+    <string name="update_channel_dev">Dev (előzetes kiadások)</string>
+    <string name="dialog_channel_title">Frissítési csatorna kiválasztása</string>
+    <string name="update_check_title">Frissítések keresése</string>
+    <string name="update_current_format">Telepítve: %1$s</string>
+    <string name="update_checking">Keresés…</string>
+    <string name="update_up_to_date">Naprakész</string>
+    <string name="update_available_format">%1$s elérhető - koppints a telepítéshez</string>
+    <string name="update_failed_format">Sikertelen keresés: %1$s</string>
+    <string name="update_downloading">Letöltés…</string>
+    <string name="update_installing">Átadás a telepítőnek…</string>
+    <string name="update_needs_permission">Engedélyezd a VDExtrának az appok telepítését, majd próbáld újra</string>
+    <string name="update_restart_hint">Frissítve. Kényszerítsd leállásra és indítsd újra a Virtual Desktopot.</string>
+
+    <string name="notif_channel_updates">Frissítés érhető el</string>
+    <string name="notif_update_title">VDExtra frissítés érhető el</string>
+    <string name="notif_update_text_format">%1$s telepítésre kész</string>
+
+    <string name="section_sound">Hang</string>
+    <string name="music_volume_title">Háttérzene hangereje</string>
+    <string name="music_volume_support">Halkítja a menüzenét; maximumon a Virtual Desktop szintje marad</string>
+    <string name="music_volume_format">%1$d%%</string>
+    <string name="music_source_title">Háttérzene</string>
+    <string name="music_source_vd">Virtual Desktop zene</string>
+    <string name="music_source_custom">Egyéni fájl</string>
+    <string name="music_source_pick">Fájl kiválasztása...</string>
+    <string name="music_source_plaza">Nightwave Plaza (online rádió)</string>
+    <string name="dialog_music_source_title">Háttérzene kiválasztása</string>
+    <string name="toast_music_format">Háttérzene: %1$s. Indítsd újra a Virtual Desktopot az alkalmazáshoz.</string>
+    <string name="toast_music_no_picker">Nincs fájlválasztó ezen az eszközön</string>
+    <string name="toast_music_no_path">Nem sikerült meghatározni az útvonalat. Válassz fájlt a belső tárhelyről.</string>
+    <string name="notif_channel_music">Háttérzene</string>
+    <string name="notif_music_missing_title">A háttérzene nem érhető el</string>
+    <string name="notif_music_missing_text">A fájl nem olvasható. A Virtual Desktop zenéje szólt helyette.</string>
+    <string name="notif_music_missing_text_format">%1$s nem olvasható. A Virtual Desktop zenéje szólt helyette.</string>
+    <string name="sound_no_perf_title">Teljesítményjelzők némítása</string>
+    <string name="sound_no_perf_support">Nyomd hosszan az egyes jelzők kiválasztásához</string>
+
+    <string name="section_bitrate">Bitráta</string>
+    <string name="bitrate_extend_title">Bitrátatartomány bővítése</string>
+    <string name="bitrate_extend_support">Nyomd hosszan a szorzó beállításához (1-3)</string>
+    <string name="bitrate_unlock_title">Sebességteszt-limit törlése</string>
+    <string name="bitrate_unlock_support">Kihagyja a sebességteszt utáni sávkorlátot</string>
+
+    <string name="section_network">Hálózat</string>
+    <string name="network_force_lan_title">LAN-keresés kényszerítése</string>
+    <string name="network_force_lan_support">Helyi gépek mutatása akkor is, ha a szerver elérhetetlen</string>
+
+    <string name="section_about">Névjegy</string>
+    <string name="about_title">Verzió és köszönet</string>
+    <string name="about_version_format">Verzió %1$s</string>
+    <string name="about_blurb">Új funkciókat ad a Virtual Desktophoz Questen.</string>
+    <string name="about_source">Forráskód</string>
+    <string name="about_author">Karbantartó</string>
+    <string name="about_credit_title">Alapja</string>
+    <string name="about_credit">A VDPlus ihlette. A VDExtra annak független folytatása.</string>
+    <string name="about_music_title">Háttérzene</string>
+    <string name="about_music">Az alapértelmezett zeneforrás a Nightwave Plaza. A sugárzott zene a jogtulajdonosoké.</string>
+    <string name="about_license_title">Licenc</string>
+    <string name="about_license">MIT. Nem kapcsolódik a Virtual Desktop, Inc.-hez, és nem az hagyta jóvá.</string>
+</resources>

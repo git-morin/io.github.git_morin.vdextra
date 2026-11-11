@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">VDExtra</string>
+    <string name="app_description">Modul peningkatan Virtual Desktop</string>
+
+    <string name="nav_home">Beranda</string>
+    <string name="nav_options">Opsi</string>
+
+    <string name="status_active">Aktif</string>
+    <string name="status_inactive">Tidak aktif</string>
+    <string name="status_inactive_hint">Aktifkan modul di LSPosed, lalu paksa berhenti dan mulai ulang Virtual Desktop</string>
+
+    <string name="info_module_version">Versi modul</string>
+    <string name="info_vd_version">Versi Virtual Desktop</string>
+    <string name="version_not_installed">Belum terpasang</string>
+
+    <string name="dialog_sounds_title">Pilih suara yang dibisukan</string>
+    <string name="dialog_scale_title">Pengali bitrate</string>
+    <string name="action_done">Selesai</string>
+    <string name="scale_hint">Pengali bitrate (1 - 3)</string>
+
+    <string name="section_language">Bahasa</string>
+    <string name="dict_language_title">Bahasa antarmuka</string>
+    <string name="settings_fit_title">Muatkan halaman panjang</string>
+    <string name="settings_fit_support">Merapatkan jarak baris agar halaman terjemahan tidak menyembunyikan baris terakhir</string>
+    <string name="dialog_language_title">Pilih bahasa antarmuka</string>
+    <string name="lang_off">Inggris (tanpa terjemahan)</string>
+    <string name="lang_entry_format">%1$s · %2$d entri</string>
+    <string name="toast_language_format">Bahasa: %1$s. Mulai ulang Virtual Desktop untuk menerapkan.</string>
+
+    <string name="section_updates">Pembaruan</string>
+    <string name="update_channel_title">Kanal pembaruan</string>
+    <string name="update_channel_stable">Stabil</string>
+    <string name="update_channel_dev">Dev (pra-rilis)</string>
+    <string name="dialog_channel_title">Pilih kanal pembaruan</string>
+    <string name="update_check_title">Periksa pembaruan</string>
+    <string name="update_current_format">Terpasang %1$s</string>
+    <string name="update_checking">Memeriksa…</string>
+    <string name="update_up_to_date">Terbaru</string>
+    <string name="update_available_format">%1$s tersedia - ketuk untuk memasang</string>
+    <string name="update_failed_format">Pemeriksaan gagal: %1$s</string>
+    <string name="update_downloading">Mengunduh…</string>
+    <string name="update_installing">Menyerahkan ke pemasang…</string>
+    <string name="update_needs_permission">Izinkan VDExtra memasang aplikasi, lalu coba lagi</string>
+    <string name="update_restart_hint">Diperbarui. Paksa berhenti dan mulai ulang Virtual Desktop untuk memuatnya.</string>
+
+    <string name="notif_channel_updates">Pembaruan tersedia</string>
+    <string name="notif_update_title">Pembaruan VDExtra tersedia</string>
+    <string name="notif_update_text_format">%1$s siap dipasang</string>
+
+    <string name="section_sound">Suara</string>
+    <string name="music_volume_title">Volume musik latar</string>
+    <string name="music_volume_support">Kecilkan musik menu; di maksimum tetap seperti level Virtual Desktop</string>
+    <string name="music_volume_format">%1$d%%</string>
+    <string name="music_source_title">Musik latar</string>
+    <string name="music_source_vd">Musik Virtual Desktop</string>
+    <string name="music_source_custom">File kustom</string>
+    <string name="music_source_pick">Pilih file...</string>
+    <string name="music_source_plaza">Nightwave Plaza (radio online)</string>
+    <string name="dialog_music_source_title">Pilih musik latar</string>
+    <string name="toast_music_format">Musik latar: %1$s. Mulai ulang Virtual Desktop untuk menerapkan.</string>
+    <string name="toast_music_no_picker">Tidak ada pemilih file di perangkat ini</string>
+    <string name="toast_music_no_path">Jalur file tidak ditemukan. Pilih file dari penyimpanan internal.</string>
+    <string name="notif_channel_music">Musik latar</string>
+    <string name="notif_music_missing_title">Musik latar tidak tersedia</string>
+    <string name="notif_music_missing_text">File tidak dapat dibaca. Musik Virtual Desktop dipakai sebagai gantinya.</string>
+    <string name="notif_music_missing_text_format">%1$s tidak dapat dibaca. Musik Virtual Desktop dipakai sebagai gantinya.</string>
+    <string name="sound_no_perf_title">Matikan suara performa</string>
+    <string name="sound_no_perf_support">Tekan lama untuk memilih tiap suara</string>
+
+    <string name="section_bitrate">Bitrate</string>
+    <string name="bitrate_extend_title">Perluas rentang bitrate</string>
+    <string name="bitrate_extend_support">Tekan lama untuk mengatur pengali (1-3)</string>
+    <string name="bitrate_unlock_title">Hapus batas tes kecepatan</string>
+    <string name="bitrate_unlock_support">Lewati batas bandwidth setelah tes kecepatan</string>
+
+    <string name="section_network">Jaringan</string>
+    <string name="network_force_lan_title">Paksa penemuan LAN</string>
+    <string name="network_force_lan_support">Tetap tampilkan PC lokal meski server tidak terjangkau</string>
+
+    <string name="section_about">Tentang</string>
+    <string name="about_title">Versi dan kredit</string>
+    <string name="about_version_format">Versi %1$s</string>
+    <string name="about_blurb">Menambah fitur ke Virtual Desktop di Quest.</string>
+    <string name="about_source">Kode sumber</string>
+    <string name="about_author">Pengelola</string>
+    <string name="about_credit_title">Berdasarkan</string>
+    <string name="about_credit">Terinspirasi dari VDPlus. VDExtra adalah kelanjutan independen dari karya itu.</string>
+    <string name="about_music_title">Musik latar</string>
+    <string name="about_music">Sumber musik default adalah Nightwave Plaza. Musik yang disiarkan milik pemegang haknya masing-masing.</string>
+    <string name="about_license_title">Lisensi</string>
+    <string name="about_license">MIT. Tidak berafiliasi dengan atau didukung oleh Virtual Desktop, Inc.</string>
+</resources>

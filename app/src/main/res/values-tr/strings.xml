@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">VDExtra</string>
+    <string name="app_description">Virtual Desktop geliştirme modülü</string>
+
+    <string name="nav_home">Ana sayfa</string>
+    <string name="nav_options">Seçenekler</string>
+
+    <string name="status_active">Aktif</string>
+    <string name="status_inactive">Pasif</string>
+    <string name="status_inactive_hint">Modülü LSPosed\'da etkinleştirin, ardından Virtual Desktop\'u zorla durdurup yeniden başlatın</string>
+
+    <string name="info_module_version">Modül sürümü</string>
+    <string name="info_vd_version">Virtual Desktop sürümü</string>
+    <string name="version_not_installed">Yüklü değil</string>
+
+    <string name="dialog_sounds_title">Susturulacak sesleri seçin</string>
+    <string name="dialog_scale_title">Bit hızı çarpanı</string>
+    <string name="action_done">Bitti</string>
+    <string name="scale_hint">Bit hızı çarpanı (1 - 3)</string>
+
+    <string name="section_language">Dil</string>
+    <string name="dict_language_title">Arayüz dili</string>
+    <string name="settings_fit_title">Uzun sayfaları sığdır</string>
+    <string name="settings_fit_support">Satır aralığını daraltır, çevrilen sayfa son satırlarını gizlemez</string>
+    <string name="dialog_language_title">Arayüz dilini seçin</string>
+    <string name="lang_off">İngilizce (çeviri yok)</string>
+    <string name="lang_entry_format">%1$s · %2$d girdi</string>
+    <string name="toast_language_format">Arayüz dili: %1$s. Uygulamak için Virtual Desktop\'u yeniden başlatın.</string>
+
+    <string name="section_updates">Güncellemeler</string>
+    <string name="update_channel_title">Güncelleme kanalı</string>
+    <string name="update_channel_stable">Kararlı</string>
+    <string name="update_channel_dev">Dev (ön sürümler)</string>
+    <string name="dialog_channel_title">Güncelleme kanalını seçin</string>
+    <string name="update_check_title">Güncellemeleri denetle</string>
+    <string name="update_current_format">Yüklü %1$s</string>
+    <string name="update_checking">Denetleniyor…</string>
+    <string name="update_up_to_date">Güncel</string>
+    <string name="update_available_format">%1$s mevcut - yüklemek için dokunun</string>
+    <string name="update_failed_format">Denetim başarısız: %1$s</string>
+    <string name="update_downloading">İndiriliyor…</string>
+    <string name="update_installing">Yükleyiciye aktarılıyor…</string>
+    <string name="update_needs_permission">VDExtra\'nın uygulama yüklemesine izin verin ve tekrar deneyin</string>
+    <string name="update_restart_hint">Güncellendi. Yüklemek için Virtual Desktop\'u zorla durdurup yeniden başlatın.</string>
+
+    <string name="notif_channel_updates">Güncelleme mevcut</string>
+    <string name="notif_update_title">VDExtra güncellemesi mevcut</string>
+    <string name="notif_update_text_format">%1$s yüklenmeye hazır</string>
+
+    <string name="section_sound">Ses</string>
+    <string name="music_volume_title">Arka plan müziği sesi</string>
+    <string name="music_volume_support">Menü müziğini kısar; en yüksekte Virtual Desktop düzeyinde kalır</string>
+    <string name="music_volume_format">%%%1$d</string>
+    <string name="music_source_title">Arka plan müziği</string>
+    <string name="music_source_vd">Virtual Desktop müziği</string>
+    <string name="music_source_custom">Özel dosya</string>
+    <string name="music_source_pick">Dosya seçin...</string>
+    <string name="music_source_plaza">Nightwave Plaza (çevrim içi radyo)</string>
+    <string name="dialog_music_source_title">Arka plan müziğini seçin</string>
+    <string name="toast_music_format">Arka plan müziği: %1$s. Uygulamak için Virtual Desktop\'u yeniden başlatın.</string>
+    <string name="toast_music_no_picker">Bu cihazda dosya seçici yok</string>
+    <string name="toast_music_no_path">Dosya yolu bulunamadı. Dahili depolamadan bir dosya seçin.</string>
+    <string name="notif_channel_music">Arka plan müziği</string>
+    <string name="notif_music_missing_title">Arka plan müziği kullanılamıyor</string>
+    <string name="notif_music_missing_text">Seçilen dosya okunamadı. Bunun yerine Virtual Desktop müziği çalındı.</string>
+    <string name="notif_music_missing_text_format">%1$s okunamadı. Bunun yerine Virtual Desktop müziği çalındı.</string>
+    <string name="sound_no_perf_title">Performans uyarı seslerini kapat</string>
+    <string name="sound_no_perf_support">Her sesi ayrı seçmek için basılı tutun</string>
+
+    <string name="section_bitrate">Bit hızı</string>
+    <string name="bitrate_extend_title">Bit hızı aralığını genişlet</string>
+    <string name="bitrate_extend_support">Çarpanı ayarlamak için basılı tutun (1-3)</string>
+    <string name="bitrate_unlock_title">Hız testi sınırını kaldır</string>
+    <string name="bitrate_unlock_support">Hız testinden sonra uygulanan bant sınırını atlar</string>
+
+    <string name="section_network">Ağ</string>
+    <string name="network_force_lan_title">LAN keşfini zorla</string>
+    <string name="network_force_lan_support">Sunucuya ulaşılamasa da yerel PC\'leri göster</string>
+
+    <string name="section_about">Hakkında</string>
+    <string name="about_title">Sürüm ve katkılar</string>
+    <string name="about_version_format">Sürüm %1$s</string>
+    <string name="about_blurb">Quest\'te Virtual Desktop\'a özellik ekler.</string>
+    <string name="about_source">Kaynak kodu</string>
+    <string name="about_author">Geliştirici</string>
+    <string name="about_credit_title">Temel</string>
+    <string name="about_credit">VDPlus\'tan esinlenmiştir. VDExtra bu çalışmanın bağımsız bir devamıdır.</string>
+    <string name="about_music_title">Arka plan müziği</string>
+    <string name="about_music">Varsayılan müzik kaynağı Nightwave Plaza\'dır. Yayınlanan müzik ilgili hak sahiplerine aittir.</string>
+    <string name="about_license_title">Lisans</string>
+    <string name="about_license">MIT. Virtual Desktop, Inc. ile bağlantılı değildir ve onaylanmamıştır.</string>
+</resources>

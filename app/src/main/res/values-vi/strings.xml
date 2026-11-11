@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">VDExtra</string>
+    <string name="app_description">Mô-đun mở rộng cho Virtual Desktop</string>
+
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_options">Tùy chọn</string>
+
+    <string name="status_active">Đang hoạt động</string>
+    <string name="status_inactive">Không hoạt động</string>
+    <string name="status_inactive_hint">Bật mô-đun trong LSPosed, rồi buộc dừng và mở lại Virtual Desktop</string>
+
+    <string name="info_module_version">Phiên bản mô-đun</string>
+    <string name="info_vd_version">Phiên bản Virtual Desktop</string>
+    <string name="version_not_installed">Chưa cài đặt</string>
+
+    <string name="dialog_sounds_title">Chọn âm báo cần tắt</string>
+    <string name="dialog_scale_title">Hệ số bitrate</string>
+    <string name="action_done">Xong</string>
+    <string name="scale_hint">Hệ số bitrate (1 - 3)</string>
+
+    <string name="section_language">Ngôn ngữ</string>
+    <string name="dict_language_title">Ngôn ngữ giao diện</string>
+    <string name="settings_fit_title">Vừa các trang cài đặt dài</string>
+    <string name="settings_fit_support">Thu hẹp khoảng cách dòng để trang đã dịch không che các dòng cuối</string>
+    <string name="dialog_language_title">Chọn ngôn ngữ giao diện</string>
+    <string name="lang_off">Tiếng Anh (không dịch)</string>
+    <string name="lang_entry_format">%1$s · %2$d mục</string>
+    <string name="toast_language_format">Ngôn ngữ: %1$s. Khởi động lại Virtual Desktop để áp dụng.</string>
+
+    <string name="section_updates">Cập nhật</string>
+    <string name="update_channel_title">Kênh cập nhật</string>
+    <string name="update_channel_stable">Ổn định</string>
+    <string name="update_channel_dev">Dev (bản thử nghiệm)</string>
+    <string name="dialog_channel_title">Chọn kênh cập nhật</string>
+    <string name="update_check_title">Kiểm tra cập nhật</string>
+    <string name="update_current_format">Đã cài %1$s</string>
+    <string name="update_checking">Đang kiểm tra…</string>
+    <string name="update_up_to_date">Đã mới nhất</string>
+    <string name="update_available_format">Có %1$s - chạm để cài</string>
+    <string name="update_failed_format">Kiểm tra thất bại: %1$s</string>
+    <string name="update_downloading">Đang tải về…</string>
+    <string name="update_installing">Đang chuyển cho trình cài đặt…</string>
+    <string name="update_needs_permission">Cho phép VDExtra cài ứng dụng rồi thử lại</string>
+    <string name="update_restart_hint">Đã cập nhật. Buộc dừng và mở lại Virtual Desktop để nạp.</string>
+
+    <string name="notif_channel_updates">Có bản cập nhật</string>
+    <string name="notif_update_title">Có bản cập nhật VDExtra</string>
+    <string name="notif_update_text_format">%1$s đã sẵn sàng để cài</string>
+
+    <string name="section_sound">Âm thanh</string>
+    <string name="music_volume_title">Âm lượng nhạc nền</string>
+    <string name="music_volume_support">Giảm nhạc menu; ở mức tối đa giữ nguyên mức của Virtual Desktop</string>
+    <string name="music_volume_format">%1$d%%</string>
+    <string name="music_source_title">Nhạc nền</string>
+    <string name="music_source_vd">Nhạc Virtual Desktop</string>
+    <string name="music_source_custom">Tệp tùy chọn</string>
+    <string name="music_source_pick">Chọn tệp...</string>
+    <string name="music_source_plaza">Nightwave Plaza (radio trực tuyến)</string>
+    <string name="dialog_music_source_title">Chọn nhạc nền</string>
+    <string name="toast_music_format">Nhạc nền: %1$s. Khởi động lại Virtual Desktop để áp dụng.</string>
+    <string name="toast_music_no_picker">Thiết bị không có trình chọn tệp</string>
+    <string name="toast_music_no_path">Không xác định được đường dẫn. Hãy chọn tệp trong bộ nhớ trong.</string>
+    <string name="notif_channel_music">Nhạc nền</string>
+    <string name="notif_music_missing_title">Nhạc nền không khả dụng</string>
+    <string name="notif_music_missing_text">Không đọc được tệp. Đã dùng nhạc Virtual Desktop thay thế.</string>
+    <string name="notif_music_missing_text_format">Không đọc được %1$s. Đã dùng nhạc Virtual Desktop thay thế.</string>
+    <string name="sound_no_perf_title">Tắt âm báo hiệu năng</string>
+    <string name="sound_no_perf_support">Nhấn giữ để chọn từng âm báo</string>
+
+    <string name="section_bitrate">Bitrate</string>
+    <string name="bitrate_extend_title">Mở rộng dải bitrate</string>
+    <string name="bitrate_extend_support">Nhấn giữ để đặt hệ số (1-3)</string>
+    <string name="bitrate_unlock_title">Bỏ giới hạn sau đo tốc độ</string>
+    <string name="bitrate_unlock_support">Bỏ qua giới hạn băng thông sau đo tốc độ</string>
+
+    <string name="section_network">Mạng</string>
+    <string name="network_force_lan_title">Buộc tìm trong LAN</string>
+    <string name="network_force_lan_support">Vẫn hiện PC cục bộ khi không tới được máy chủ</string>
+
+    <string name="section_about">Giới thiệu</string>
+    <string name="about_title">Phiên bản và ghi công</string>
+    <string name="about_version_format">Phiên bản %1$s</string>
+    <string name="about_blurb">Thêm tính năng cho Virtual Desktop trên Quest.</string>
+    <string name="about_source">Mã nguồn</string>
+    <string name="about_author">Người duy trì</string>
+    <string name="about_credit_title">Dựa trên</string>
+    <string name="about_credit">Lấy cảm hứng từ VDPlus. VDExtra là bản tiếp nối độc lập của dự án đó.</string>
+    <string name="about_music_title">Nhạc nền</string>
+    <string name="about_music">Nguồn nhạc mặc định là Nightwave Plaza. Nhạc phát sóng thuộc về các chủ sở hữu quyền tương ứng.</string>
+    <string name="about_license_title">Giấy phép</string>
+    <string name="about_license">MIT. Không liên kết hay được Virtual Desktop, Inc. chứng thực.</string>
+</resources>
