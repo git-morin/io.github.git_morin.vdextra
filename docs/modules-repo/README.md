@@ -22,7 +22,7 @@ If you meet these two situations then please [open an issue](https://github.com/
 
 ## Features
 
-- **Interface translation**: Translate **VD**'s UI in one of the currently supported languages
+- **Interface translation**: Translate **VD**'s UI in one of the currently supported languages. Do note that I am not polyglot, the current translations were made by using translation software.
   - Contributions to new languages are welcomed. Feel free to submit a merge request (see the [translation doc](https://github.com/git-morin/io.github.git_morin.vdextra/blob/main/docs/translations.md))
   - Resize of some elements for better fit in languages with more symbols.
 - **Extend bitrate range**: Increase the allowed maximum bitrate between **VD** and the connected machine.
