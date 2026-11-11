@@ -56,6 +56,7 @@
     <string name="music_source_custom">Arquivo próprio</string>
     <string name="music_source_pick">Escolher arquivo...</string>
     <string name="music_source_plaza">Nightwave Plaza (rádio online)</string>
+    <string name="music_source_nightride">Nightride FM (rádio online)</string>
     <string name="dialog_music_source_title">Escolha a música de fundo</string>
     <string name="toast_music_format">Música: %1$s. Reinicie o Virtual Desktop para aplicar.</string>
     <string name="toast_music_no_picker">Nenhum seletor de arquivos neste dispositivo</string>

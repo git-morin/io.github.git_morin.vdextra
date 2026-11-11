@@ -322,6 +322,7 @@ class MainActivity : AppCompatActivity() {
         val path = p.getString(PrefKeys.MUSIC_PATH, PrefKeys.MUSIC_DEFAULT)
         if (PrefKeys.MUSIC_VD == path) return getString(R.string.music_source_vd)
         if (PrefKeys.MUSIC_PLAZA == path) return getString(R.string.music_source_plaza)
+        if (PrefKeys.MUSIC_NIGHTRIDE == path) return getString(R.string.music_source_nightride)
         return p.getString(PrefKeys.MUSIC_NAME, null) ?: getString(R.string.music_source_custom)
     }
 
@@ -329,15 +330,17 @@ class MainActivity : AppCompatActivity() {
         val labels = arrayOf(
             getString(R.string.music_source_vd),
             getString(R.string.music_source_plaza),
+            getString(R.string.music_source_nightride),
             getString(R.string.music_source_pick),
         )
-        val values = arrayOf(PrefKeys.MUSIC_VD, PrefKeys.MUSIC_PLAZA)
+        val values = arrayOf(PrefKeys.MUSIC_VD, PrefKeys.MUSIC_PLAZA, PrefKeys.MUSIC_NIGHTRIDE)
         val path = prefs()
             .getString(PrefKeys.MUSIC_PATH, PrefKeys.MUSIC_DEFAULT)
         val checked = when (path) {
             PrefKeys.MUSIC_VD -> 0
             PrefKeys.MUSIC_PLAZA -> 1
-            else -> 2
+            PrefKeys.MUSIC_NIGHTRIDE -> 2
+            else -> 3
         }
         MaterialAlertDialogBuilder(this)
             .setTitle(R.string.dialog_music_source_title)

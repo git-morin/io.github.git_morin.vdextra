@@ -56,6 +56,7 @@
     <string name="music_source_custom">Fișier propriu</string>
     <string name="music_source_pick">Alege un fișier...</string>
     <string name="music_source_plaza">Nightwave Plaza (radio online)</string>
+    <string name="music_source_nightride">Nightride FM (radio online)</string>
     <string name="dialog_music_source_title">Alege muzica de fundal</string>
     <string name="toast_music_format">Muzică: %1$s. Repornește Virtual Desktop pentru a aplica.</string>
     <string name="toast_music_no_picker">Niciun selector de fișiere pe acest dispozitiv</string>

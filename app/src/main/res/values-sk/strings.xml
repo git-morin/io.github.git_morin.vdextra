@@ -56,6 +56,7 @@
     <string name="music_source_custom">Vlastný súbor</string>
     <string name="music_source_pick">Vybrať súbor...</string>
     <string name="music_source_plaza">Nightwave Plaza (online rádio)</string>
+    <string name="music_source_nightride">Nightride FM (online rádio)</string>
     <string name="dialog_music_source_title">Vyberte hudbu na pozadí</string>
     <string name="toast_music_format">Hudba: %1$s. Na použitie reštartujte Virtual Desktop.</string>
     <string name="toast_music_no_picker">V zariadení nie je výber súborov</string>

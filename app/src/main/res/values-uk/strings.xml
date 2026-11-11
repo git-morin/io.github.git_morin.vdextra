@@ -56,6 +56,7 @@
     <string name="music_source_custom">Свій файл</string>
     <string name="music_source_pick">Вибрати файл...</string>
     <string name="music_source_plaza">Nightwave Plaza (онлайн-радіо)</string>
+    <string name="music_source_nightride">Nightride FM (онлайн-радіо)</string>
     <string name="dialog_music_source_title">Виберіть фонову музику</string>
     <string name="toast_music_format">Музика: %1$s. Перезапустіть Virtual Desktop, щоб застосувати.</string>
     <string name="toast_music_no_picker">На пристрої немає вибору файлів</string>

@@ -56,6 +56,7 @@
     <string name="music_source_custom">Egen fil</string>
     <string name="music_source_pick">Vælg en fil...</string>
     <string name="music_source_plaza">Nightwave Plaza (netradio)</string>
+    <string name="music_source_nightride">Nightride FM (netradio)</string>
     <string name="dialog_music_source_title">Vælg baggrundsmusik</string>
     <string name="toast_music_format">Baggrundsmusik: %1$s. Genstart Virtual Desktop for at anvende.</string>
     <string name="toast_music_no_picker">Ingen filvælger på denne enhed</string>
