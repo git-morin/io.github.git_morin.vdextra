@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">VDExtra</string>
+    <string name="app_description">Virtual Desktop 확장 모듈</string>
+
+    <string name="nav_home">홈</string>
+    <string name="nav_options">옵션</string>
+
+    <string name="status_active">활성</string>
+    <string name="status_inactive">비활성</string>
+    <string name="status_inactive_hint">LSPosed에서 모듈을 켠 뒤 Virtual Desktop을 강제 종료하고 다시 실행하세요</string>
+
+    <string name="info_module_version">모듈 버전</string>
+    <string name="info_vd_version">Virtual Desktop 버전</string>
+    <string name="version_not_installed">설치되지 않음</string>
+
+    <string name="dialog_sounds_title">음소거할 알림음</string>
+    <string name="dialog_scale_title">비트레이트 배율</string>
+    <string name="action_done">완료</string>
+    <string name="scale_hint">비트레이트 배율 (1 - 3)</string>
+
+    <string name="section_language">언어</string>
+    <string name="dict_language_title">UI 언어</string>
+    <string name="settings_fit_title">긴 설정 페이지 맞추기</string>
+    <string name="settings_fit_support">행 간격을 줄여 번역된 페이지의 마지막 행이 가려지지 않게 합니다</string>
+    <string name="dialog_language_title">UI 언어 선택</string>
+    <string name="lang_off">영어 (번역 없음)</string>
+    <string name="lang_entry_format">%1$s · %2$d개 항목</string>
+    <string name="toast_language_format">UI 언어: %1$s. Virtual Desktop을 다시 시작하면 적용됩니다.</string>
+
+    <string name="section_updates">업데이트</string>
+    <string name="update_channel_title">업데이트 채널</string>
+    <string name="update_channel_stable">안정</string>
+    <string name="update_channel_dev">개발 (프리릴리스)</string>
+    <string name="dialog_channel_title">업데이트 채널 선택</string>
+    <string name="update_check_title">업데이트 확인</string>
+    <string name="update_current_format">설치됨 %1$s</string>
+    <string name="update_checking">확인 중…</string>
+    <string name="update_up_to_date">최신 버전</string>
+    <string name="update_available_format">%1$s 사용 가능 - 탭하여 설치</string>
+    <string name="update_failed_format">확인 실패: %1$s</string>
+    <string name="update_downloading">다운로드 중…</string>
+    <string name="update_installing">설치 프로그램으로 넘기는 중…</string>
+    <string name="update_needs_permission">VDExtra의 앱 설치를 허용한 뒤 다시 시도하세요</string>
+    <string name="update_restart_hint">업데이트됨. Virtual Desktop을 강제 종료하고 다시 실행하면 적용됩니다.</string>
+
+    <string name="notif_channel_updates">업데이트 있음</string>
+    <string name="notif_update_title">VDExtra 업데이트 있음</string>
+    <string name="notif_update_text_format">%1$s 설치 준비 완료</string>
+
+    <string name="section_sound">사운드</string>
+    <string name="music_volume_title">배경 음악 볼륨</string>
+    <string name="music_volume_support">메뉴 음악을 줄입니다. 최대일 때는 Virtual Desktop 음량 그대로입니다</string>
+    <string name="music_volume_format">%1$d%%</string>
+    <string name="music_source_title">배경 음악</string>
+    <string name="music_source_vd">Virtual Desktop 음악</string>
+    <string name="music_source_custom">사용자 파일</string>
+    <string name="music_source_pick">파일 선택...</string>
+    <string name="music_source_plaza">Nightwave Plaza (온라인 라디오)</string>
+    <string name="dialog_music_source_title">배경 음악 선택</string>
+    <string name="toast_music_format">배경 음악: %1$s. Virtual Desktop을 다시 시작하면 적용됩니다.</string>
+    <string name="toast_music_no_picker">이 기기에 파일 선택기가 없습니다</string>
+    <string name="toast_music_no_path">파일 경로를 확인할 수 없습니다. 내부 저장소에서 파일을 고르세요.</string>
+    <string name="notif_channel_music">배경 음악</string>
+    <string name="notif_music_missing_title">배경 음악 사용 불가</string>
+    <string name="notif_music_missing_text">파일을 읽을 수 없어 Virtual Desktop 음악을 사용했습니다.</string>
+    <string name="notif_music_missing_text_format">%1$s을(를) 읽을 수 없어 Virtual Desktop 음악을 사용했습니다.</string>
+    <string name="sound_no_perf_title">성능 알림음 끄기</string>
+    <string name="sound_no_perf_support">길게 눌러 알림음을 개별 선택</string>
+
+    <string name="section_bitrate">비트레이트</string>
+    <string name="bitrate_extend_title">비트레이트 범위 확장</string>
+    <string name="bitrate_extend_support">길게 눌러 배율 설정 (1-3)</string>
+    <string name="bitrate_unlock_title">속도 테스트 비트레이트 제한 해제</string>
+    <string name="bitrate_unlock_support">속도 테스트 후 대역폭 제한 무시</string>
+
+    <string name="section_network">네트워크</string>
+    <string name="network_force_lan_title">LAN 검색 강제</string>
+    <string name="network_force_lan_support">서버에 연결할 수 없어도 로컬 PC 표시</string>
+
+    <string name="section_about">정보</string>
+    <string name="about_title">버전 및 크레딧</string>
+    <string name="about_version_format">버전 %1$s</string>
+    <string name="about_blurb">Quest의 Virtual Desktop에 기능을 추가합니다.</string>
+    <string name="about_source">소스 코드</string>
+    <string name="about_author">관리자</string>
+    <string name="about_credit_title">기반</string>
+    <string name="about_credit">VDPlus에서 영감을 받았습니다. VDExtra는 그 작업의 독립적인 후속작입니다.</string>
+    <string name="about_music_title">배경 음악</string>
+    <string name="about_music">기본 음악 소스는 Nightwave Plaza입니다. 방송되는 음악의 권리는 각 권리자에게 있습니다.</string>
+    <string name="about_license_title">라이선스</string>
+    <string name="about_license">MIT. Virtual Desktop, Inc.와 무관하며 승인받지 않았습니다.</string>
+</resources>

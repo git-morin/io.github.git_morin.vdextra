@@ -1,6 +1,6 @@
 {
-  "Add video files to the 'Movies' folder on your Mac and they will appear here. You will be able to stream them directly or download them for local playback.": "将视频文件放入 Mac 的“Movies”文件夹后，它们会显示在这里。您可以直接串流播放，或下载到本地播放。",
-  "Add video files to the 'Videos' folder in Windows and they will appear here. You will be able to stream them directly or download them for local playback.": "将视频文件放入 Windows 的“Videos”文件夹后，它们会显示在这里。您可以直接串流播放，或下载到本地播放。",
+  "Add video files to the 'Movies' folder on your Mac and they will appear here. You will be able to stream them directly or download them for local playback.": "将视频文件放入 Mac 的「Movies」文件夹后，它们会显示在这里。您可以直接串流播放，或下载到本地播放。",
+  "Add video files to the 'Videos' folder in Windows and they will appear here. You will be able to stream them directly or download them for local playback.": "将视频文件放入 Windows 的「Videos」文件夹后，它们会显示在这里。您可以直接串流播放，或下载到本地播放。",
   "Unable to retrieve your computers": "无法获取您的电脑列表",
   "Make sure you are logged in with Steam in your headset and restart the app": "请确保已在头显中登录 Steam 账号，然后重启应用",
   "Make sure you are logged into your Google account in your headset and restart the app": "请确保已在头显中登录 Google 账号，然后重启应用",
@@ -140,7 +140,7 @@
   "Frame Rate": "帧率",
   "Full SBS": "完整 SBS",
   "Gfx Quality": "图形质量",
-  "Go into your Quest Settings, select the Link tab, scroll down and enable 'USB connections for apps'": "进入你的 Quest 设置，选择“连接”标签页，向下滚动并开启“允许应用使用 USB 连接”",
+  "Go into your Quest Settings, select the Link tab, scroll down and enable 'USB connections for apps'": "进入你的 Quest 设置，选择「连接」标签页，向下滚动并开启「允许应用使用 USB 连接」",
   "Half SBS": "半 SBS",
   "Hand tracking": "手部追踪",
   "Head Lock": "头部锁定",
