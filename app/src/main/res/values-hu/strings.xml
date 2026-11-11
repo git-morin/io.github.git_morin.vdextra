@@ -57,6 +57,7 @@
     <string name="music_source_pick">Fájl kiválasztása...</string>
     <string name="music_source_plaza">Nightwave Plaza (online rádió)</string>
     <string name="music_source_nightride">Nightride FM (online rádió)</string>
+    <string name="music_source_rainwave">Rainwave (online rádió)</string>
     <string name="dialog_music_source_title">Háttérzene kiválasztása</string>
     <string name="toast_music_format">Háttérzene: %1$s. Indítsd újra a Virtual Desktopot az alkalmazáshoz.</string>
     <string name="toast_music_no_picker">Nincs fájlválasztó ezen az eszközön</string>

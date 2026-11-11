@@ -57,6 +57,7 @@
     <string name="music_source_pick">Dosya seçin...</string>
     <string name="music_source_plaza">Nightwave Plaza (çevrim içi radyo)</string>
     <string name="music_source_nightride">Nightride FM (çevrim içi radyo)</string>
+    <string name="music_source_rainwave">Rainwave (çevrim içi radyo)</string>
     <string name="dialog_music_source_title">Arka plan müziğini seçin</string>
     <string name="toast_music_format">Arka plan müziği: %1$s. Uygulamak için Virtual Desktop\'u yeniden başlatın.</string>
     <string name="toast_music_no_picker">Bu cihazda dosya seçici yok</string>

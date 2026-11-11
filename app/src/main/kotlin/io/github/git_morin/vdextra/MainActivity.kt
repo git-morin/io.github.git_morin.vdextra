@@ -322,48 +322,67 @@ class MainActivity : AppCompatActivity() {
         val path = p.getString(PrefKeys.MUSIC_PATH, PrefKeys.MUSIC_DEFAULT)
         if (PrefKeys.MUSIC_VD == path) return getString(R.string.music_source_vd)
         if (PrefKeys.MUSIC_PLAZA == path) return getString(R.string.music_source_plaza)
-        if (PrefKeys.MUSIC_NIGHTRIDE == path) return getString(R.string.music_source_nightride)
+        Radios.stationLabel(path)?.let { return it }
         return p.getString(PrefKeys.MUSIC_NAME, null) ?: getString(R.string.music_source_custom)
     }
 
     private fun showMusicSourceDialog() {
-        val labels = arrayOf(
-            getString(R.string.music_source_vd),
-            getString(R.string.music_source_plaza),
-            getString(R.string.music_source_nightride),
-            getString(R.string.music_source_pick),
-        )
-        val values = arrayOf(PrefKeys.MUSIC_VD, PrefKeys.MUSIC_PLAZA, PrefKeys.MUSIC_NIGHTRIDE)
+        val fixed = arrayOf(PrefKeys.MUSIC_VD, PrefKeys.MUSIC_PLAZA)
+        val labels = (
+            listOf(getString(R.string.music_source_vd), getString(R.string.music_source_plaza)) +
+                Radios.ALL.map { getString(it.labelRes) } +
+                getString(R.string.music_source_pick)
+            ).toTypedArray()
+        // Rows: the fixed sources, then one per radio (each opens its station list), then the file.
+        val firstRadio = fixed.size
+        val pickRow = firstRadio + Radios.ALL.size
         val path = prefs()
             .getString(PrefKeys.MUSIC_PATH, PrefKeys.MUSIC_DEFAULT)
-        val checked = when (path) {
-            PrefKeys.MUSIC_VD -> 0
-            PrefKeys.MUSIC_PLAZA -> 1
-            PrefKeys.MUSIC_NIGHTRIDE -> 2
-            else -> 3
+        val radioRow = Radios.ALL.indexOfFirst { it.indexOf(path) >= 0 }
+        val checked = when {
+            fixed.indexOf(path) >= 0 -> fixed.indexOf(path)
+            radioRow >= 0 -> firstRadio + radioRow
+            else -> pickRow
         }
         MaterialAlertDialogBuilder(this)
             .setTitle(R.string.dialog_music_source_title)
             .setSingleChoiceItems(labels, checked) { d, which ->
                 d.dismiss()
-                if (which == values.size) {
-                    try {
-                        pickMusic.launch(arrayOf("audio/*"))
-                    } catch (t: Throwable) {
-                        Toast.makeText(
-                            this, R.string.toast_music_no_picker, Toast.LENGTH_LONG
-                        ).show()
-                    }
-                    return@setSingleChoiceItems
+                when {
+                    which < firstRadio -> setMusic(fixed[which], labels[which])
+                    which < pickRow -> showStationDialog(Radios.ALL[which - firstRadio], path)
+                    else -> launchMusicPicker()
                 }
-                save(PrefKeys.MUSIC_PATH, values[which])
-                save(PrefKeys.MUSIC_NAME, null)
-                refresh()
-                Toast.makeText(
-                    this, getString(R.string.toast_music_format, labels[which]), Toast.LENGTH_LONG
-                ).show()
             }
             .show()
+    }
+
+    private fun launchMusicPicker() {
+        try {
+            pickMusic.launch(arrayOf("audio/*"))
+        } catch (t: Throwable) {
+            Toast.makeText(this, R.string.toast_music_no_picker, Toast.LENGTH_LONG).show()
+        }
+    }
+
+    private fun showStationDialog(radio: Radio, path: String?) {
+        val names = radio.stations.map { it.first }.toTypedArray()
+        MaterialAlertDialogBuilder(this)
+            .setTitle(radio.name)
+            .setSingleChoiceItems(names, radio.indexOf(path)) { d, which ->
+                d.dismiss()
+                setMusic(radio.stations[which].second, radio.label(which))
+            }
+            .show()
+    }
+
+    private fun setMusic(path: String, label: String) {
+        save(PrefKeys.MUSIC_PATH, path)
+        save(PrefKeys.MUSIC_NAME, null)
+        refresh()
+        Toast.makeText(
+            this, getString(R.string.toast_music_format, label), Toast.LENGTH_LONG
+        ).show()
     }
 
     private fun showAboutDialog() {

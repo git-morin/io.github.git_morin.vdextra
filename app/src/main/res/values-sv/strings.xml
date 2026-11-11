@@ -57,6 +57,7 @@
     <string name="music_source_pick">Välj en fil...</string>
     <string name="music_source_plaza">Nightwave Plaza (webbradio)</string>
     <string name="music_source_nightride">Nightride FM (webbradio)</string>
+    <string name="music_source_rainwave">Rainwave (webbradio)</string>
     <string name="dialog_music_source_title">Välj bakgrundsmusik</string>
     <string name="toast_music_format">Bakgrundsmusik: %1$s. Starta om Virtual Desktop för att tillämpa.</string>
     <string name="toast_music_no_picker">Ingen filväljare på den här enheten</string>

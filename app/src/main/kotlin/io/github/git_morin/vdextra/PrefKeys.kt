@@ -11,7 +11,6 @@ internal object PrefKeys {
     const val MUSIC_PATH = "music_path"
     const val MUSIC_VD = "vd"
     const val MUSIC_PLAZA = "https://radio.plaza.one/mp3"
-    const val MUSIC_NIGHTRIDE = "https://stream.nightride.fm/nightride.mp3"
     const val MUSIC_DEFAULT = MUSIC_PLAZA
     const val MUSIC_NAME = "music_name"
     const val DISABLE_QUALITY_SOUND = "disable_quality_sound"

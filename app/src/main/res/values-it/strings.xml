@@ -57,6 +57,7 @@
     <string name="music_source_pick">Scegli un file...</string>
     <string name="music_source_plaza">Nightwave Plaza (radio online)</string>
     <string name="music_source_nightride">Nightride FM (radio online)</string>
+    <string name="music_source_rainwave">Rainwave (radio online)</string>
     <string name="dialog_music_source_title">Scegli la musica di sottofondo</string>
     <string name="toast_music_format">Musica: %1$s. Riavvia Virtual Desktop per applicarla.</string>
     <string name="toast_music_no_picker">Nessun selettore di file su questo dispositivo</string>

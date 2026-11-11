@@ -57,6 +57,7 @@
     <string name="music_source_pick">Choose a file...</string>
     <string name="music_source_plaza">Nightwave Plaza (online radio)</string>
     <string name="music_source_nightride">Nightride FM (online radio)</string>
+    <string name="music_source_rainwave">Rainwave (online radio)</string>
     <string name="dialog_music_source_title">Choose the background music</string>
     <string name="toast_music_format">Background music set to %1$s. Relaunch Virtual Desktop to apply.</string>
     <string name="toast_music_no_picker">No file picker available on this device</string>

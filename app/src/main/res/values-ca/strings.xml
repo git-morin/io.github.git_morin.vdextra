@@ -57,6 +57,7 @@
     <string name="music_source_pick">Tria un fitxer...</string>
     <string name="music_source_plaza">Nightwave Plaza (ràdio en línia)</string>
     <string name="music_source_nightride">Nightride FM (ràdio en línia)</string>
+    <string name="music_source_rainwave">Rainwave (ràdio en línia)</string>
     <string name="dialog_music_source_title">Tria la música de fons</string>
     <string name="toast_music_format">Música: %1$s. Reinicia Virtual Desktop per aplicar-ho.</string>
     <string name="toast_music_no_picker">No hi ha selector de fitxers en aquest dispositiu</string>

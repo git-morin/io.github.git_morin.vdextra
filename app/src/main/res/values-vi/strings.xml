@@ -57,6 +57,7 @@
     <string name="music_source_pick">Chọn tệp...</string>
     <string name="music_source_plaza">Nightwave Plaza (radio trực tuyến)</string>
     <string name="music_source_nightride">Nightride FM (radio trực tuyến)</string>
+    <string name="music_source_rainwave">Rainwave (radio trực tuyến)</string>
     <string name="dialog_music_source_title">Chọn nhạc nền</string>
     <string name="toast_music_format">Nhạc nền: %1$s. Khởi động lại Virtual Desktop để áp dụng.</string>
     <string name="toast_music_no_picker">Thiết bị không có trình chọn tệp</string>

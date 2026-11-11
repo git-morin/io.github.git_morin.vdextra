@@ -57,6 +57,7 @@
     <string name="music_source_pick">파일 선택...</string>
     <string name="music_source_plaza">Nightwave Plaza (온라인 라디오)</string>
     <string name="music_source_nightride">Nightride FM (온라인 라디오)</string>
+    <string name="music_source_rainwave">Rainwave (온라인 라디오)</string>
     <string name="dialog_music_source_title">배경 음악 선택</string>
     <string name="toast_music_format">배경 음악: %1$s. Virtual Desktop을 다시 시작하면 적용됩니다.</string>
     <string name="toast_music_no_picker">이 기기에 파일 선택기가 없습니다</string>
