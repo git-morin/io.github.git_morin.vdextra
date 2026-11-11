@@ -42,7 +42,7 @@ Most of the module is configured from a **VDEXTRA** page in Virtual Desktop's ow
 Its rows are clones of VD's own controls, so they match the rest of the interface, and they are
 translated along with everything else. A change takes effect straight away and survives a restart.
 
-![The VDExtra page in Virtual Desktop's control panel](https://raw.githubusercontent.com/git-morin/io.github.git_morin.vdextra/main/docs/vdextra-section.jpg)
+![The VDExtra page in Virtual Desktop's control panel, beside the companion app](https://raw.githubusercontent.com/git-morin/io.github.git_morin.vdextra/main/docs/vdextra-section.jpg)
 
 Settings that need Android to do the work stay in the companion app: the music source, the UI
 language, the update channel and which cue sounds to mute.

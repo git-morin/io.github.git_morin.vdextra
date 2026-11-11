@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">VDExtra</string>
+    <string name="app_description">Módulo de melhorias para o Virtual Desktop</string>
+
+    <string name="nav_home">Início</string>
+    <string name="nav_options">Opções</string>
+
+    <string name="status_active">Ativo</string>
+    <string name="status_inactive">Inativo</string>
+    <string name="status_inactive_hint">Ative o módulo no LSPosed, depois force a parada do Virtual Desktop e abra de novo</string>
+
+    <string name="info_module_version">Versão do módulo</string>
+    <string name="info_vd_version">Versão do Virtual Desktop</string>
+    <string name="version_not_installed">Não instalado</string>
+
+    <string name="dialog_sounds_title">Avisos a silenciar</string>
+    <string name="dialog_scale_title">Multiplicador de bitrate</string>
+    <string name="action_done">Concluir</string>
+    <string name="scale_hint">Multiplicador de bitrate (1 - 3)</string>
+
+    <string name="section_language">Idioma</string>
+    <string name="dict_language_title">Idioma da interface</string>
+    <string name="settings_fit_title">Ajustar páginas longas</string>
+    <string name="settings_fit_support">Reduz o espaçamento para que uma página traduzida mostre todas as linhas</string>
+    <string name="dialog_language_title">Escolha o idioma da interface</string>
+    <string name="lang_off">Inglês (sem tradução)</string>
+    <string name="lang_entry_format">%1$s · %2$d entradas</string>
+    <string name="toast_language_format">Idioma: %1$s. Reinicie o Virtual Desktop para aplicar.</string>
+
+    <string name="section_updates">Atualizações</string>
+    <string name="update_channel_title">Canal de atualização</string>
+    <string name="update_channel_stable">Estável</string>
+    <string name="update_channel_dev">Dev (pré-lançamentos)</string>
+    <string name="dialog_channel_title">Escolha o canal</string>
+    <string name="update_check_title">Procurar atualizações</string>
+    <string name="update_current_format">Instalada %1$s</string>
+    <string name="update_checking">Procurando…</string>
+    <string name="update_up_to_date">Atualizado</string>
+    <string name="update_available_format">%1$s disponível - toque para instalar</string>
+    <string name="update_failed_format">Falha: %1$s</string>
+    <string name="update_downloading">Baixando…</string>
+    <string name="update_installing">Abrindo o instalador…</string>
+    <string name="update_needs_permission">Permita que o VDExtra instale apps e tente de novo</string>
+    <string name="update_restart_hint">Atualizado. Force a parada do Virtual Desktop e abra de novo para carregar.</string>
+
+    <string name="notif_channel_updates">Atualização disponível</string>
+    <string name="notif_update_title">Atualização do VDExtra disponível</string>
+    <string name="notif_update_text_format">%1$s pronto para instalar</string>
+
+    <string name="section_sound">Som</string>
+    <string name="music_volume_title">Volume da música</string>
+    <string name="music_volume_support">Abaixa a música do menu; no máximo mantém o nível do Virtual Desktop</string>
+    <string name="music_volume_format">%1$d%%</string>
+    <string name="music_source_title">Música de fundo</string>
+    <string name="music_source_vd">Música do Virtual Desktop</string>
+    <string name="music_source_custom">Arquivo próprio</string>
+    <string name="music_source_pick">Escolher arquivo...</string>
+    <string name="music_source_plaza">Nightwave Plaza (rádio online)</string>
+    <string name="dialog_music_source_title">Escolha a música de fundo</string>
+    <string name="toast_music_format">Música: %1$s. Reinicie o Virtual Desktop para aplicar.</string>
+    <string name="toast_music_no_picker">Nenhum seletor de arquivos neste dispositivo</string>
+    <string name="toast_music_no_path">Não foi possível obter o caminho. Escolha um arquivo do armazenamento interno.</string>
+    <string name="notif_channel_music">Música de fundo</string>
+    <string name="notif_music_missing_title">Música de fundo indisponível</string>
+    <string name="notif_music_missing_text">Não foi possível ler o arquivo. A música do Virtual Desktop foi usada.</string>
+    <string name="notif_music_missing_text_format">Não foi possível ler %1$s. A música do Virtual Desktop foi usada.</string>
+    <string name="sound_no_perf_title">Silenciar avisos de desempenho</string>
+    <string name="sound_no_perf_support">Toque e segure para escolher cada aviso</string>
+
+    <string name="section_bitrate">Bitrate</string>
+    <string name="bitrate_extend_title">Ampliar faixa de bitrate</string>
+    <string name="bitrate_extend_support">Toque e segure para definir o multiplicador (1-3)</string>
+    <string name="bitrate_unlock_title">Remover limite do teste de velocidade</string>
+    <string name="bitrate_unlock_support">Ignora o limite de banda após o teste</string>
+
+    <string name="section_network">Rede</string>
+    <string name="network_force_lan_title">Forçar descoberta LAN</string>
+    <string name="network_force_lan_support">Mostra PCs locais mesmo se o servidor não responder</string>
+
+    <string name="section_about">Sobre</string>
+    <string name="about_title">Versão e créditos</string>
+    <string name="about_version_format">Versão %1$s</string>
+    <string name="about_blurb">Adiciona recursos ao Virtual Desktop no Quest.</string>
+    <string name="about_source">Código-fonte</string>
+    <string name="about_author">Mantenedor</string>
+    <string name="about_credit_title">Baseado em</string>
+    <string name="about_credit">Inspirado no VDPlus. O VDExtra é uma continuação independente desse trabalho.</string>
+    <string name="about_music_title">Música de fundo</string>
+    <string name="about_music">A fonte de música padrão é a Nightwave Plaza. As músicas transmitidas pertencem aos seus respectivos detentores.</string>
+    <string name="about_license_title">Licença</string>
+    <string name="about_license">MIT. Sem afiliação ou endosso da Virtual Desktop, Inc.</string>
+</resources>
